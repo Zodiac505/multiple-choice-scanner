@@ -1,9 +1,7 @@
 [[source]]
-name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-
-[dev-packages]
+name = "pypi"
 
 [packages]
 imutils = "*"
@@ -11,5 +9,7 @@ numpy = "*"
 opencv-python = "*"
 scipy = "*"
 
+[dev-packages]
+
 [requires]
-python_version = "3.7"
+python_version = "3.9"
